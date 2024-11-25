@@ -1,23 +1,21 @@
 "use strict";
 
-// Part 1 //
+// завдання 1
 
-let number1 = '8';
-let number2 = '3';
+const number1 = 8;  
+const number2 = 3;  
 
-console.log( number1 + number2);             
-console.log( number1 - number2);          
-console.log( number1 * number2);       
-console.log(number1 / number2);             
-console.log(number1**3);       
-console.log( Math.sqrt(number1));     
+console.log(number1 + number2);        
+console.log(number1 - number2);        
+console.log(number1 * number2);        
+console.log(number1 / number2);       
+console.log(number1 ** 3);            
+console.log(Math.sqrt(number1));     
 
+// завдання 2
 
-// Part 2 //
+const number = 25;  
 
-
-let number = '25'; 
-
-console.log(String(number));      // string
-console.log(Number(number));      // number
-console.log(Boolean(number));    // boolean
+console.log(String(number));     
+console.log(Number(number));      
+console.log(Boolean(number));    
